@@ -1,0 +1,58 @@
+2020-02-15T04:20:59.639Z INFO Ensure step 2 jar file s3://twitter-triangle/twitter-triangle-1.0.jar
+2020-02-15T04:21:00.086Z INFO StepRunner: Created Runner for step 2
+INFO startExec 'hadoop jar /mnt/var/lib/hadoop/steps/s-3MFES1WRU1MKL/twitter-triangle-1.0.jar wc.TwitterTriangleReduceJoin s3://twitter-triangle/input s3://twitter-triangle/output 10000'
+INFO Environment:
+  PATH=/sbin:/usr/sbin:/bin:/usr/bin:/usr/local/sbin:/opt/aws/bin
+  LESS_TERMCAP_md=[01;38;5;208m
+  LESS_TERMCAP_me=[0m
+  HISTCONTROL=ignoredups
+  LESS_TERMCAP_mb=[01;31m
+  AWS_AUTO_SCALING_HOME=/opt/aws/apitools/as
+  UPSTART_JOB=rc
+  LESS_TERMCAP_se=[0m
+  HISTSIZE=1000
+  HADOOP_ROOT_LOGGER=INFO,DRFA
+  JAVA_HOME=/etc/alternatives/jre
+  AWS_DEFAULT_REGION=us-east-1
+  AWS_ELB_HOME=/opt/aws/apitools/elb
+  LESS_TERMCAP_us=[04;38;5;111m
+  EC2_HOME=/opt/aws/apitools/ec2
+  TERM=linux
+  runlevel=3
+  LANG=en_US.UTF-8
+  AWS_CLOUDWATCH_HOME=/opt/aws/apitools/mon
+  MAIL=/var/spool/mail/hadoop
+  LESS_TERMCAP_ue=[0m
+  LOGNAME=hadoop
+  PWD=/
+  LANGSH_SOURCED=1
+  HADOOP_CLIENT_OPTS=-Djava.io.tmpdir=/mnt/var/lib/hadoop/steps/s-3MFES1WRU1MKL/tmp
+  _=/etc/alternatives/jre/bin/java
+  CONSOLETYPE=serial
+  RUNLEVEL=3
+  LESSOPEN=||/usr/bin/lesspipe.sh %s
+  previous=N
+  UPSTART_EVENTS=runlevel
+  AWS_PATH=/opt/aws
+  USER=hadoop
+  UPSTART_INSTANCE=
+  PREVLEVEL=N
+  HADOOP_LOGFILE=syslog
+  PYTHON_INSTALL_LAYOUT=amzn
+  HOSTNAME=ip-172-31-75-225
+  HADOOP_LOG_DIR=/mnt/var/log/hadoop/steps/s-3MFES1WRU1MKL
+  EC2_AMITOOL_HOME=/opt/aws/amitools/ec2
+  EMR_STEP_ID=s-3MFES1WRU1MKL
+  SHLVL=5
+  HOME=/home/hadoop
+  HADOOP_IDENT_STRING=hadoop
+INFO redirectOutput to /mnt/var/log/hadoop/steps/s-3MFES1WRU1MKL/stdout
+INFO redirectError to /mnt/var/log/hadoop/steps/s-3MFES1WRU1MKL/stderr
+INFO Working dir /mnt/var/lib/hadoop/steps/s-3MFES1WRU1MKL
+INFO ProcessRunner started child process 8077
+2020-02-15T04:21:00.087Z INFO HadoopJarStepRunner.Runner: startRun() called for s-3MFES1WRU1MKL Child Pid: 8077
+INFO Synchronously wait child process to complete : hadoop jar /mnt/var/lib/hadoop/steps/s-3MFES1WR...
+INFO waitProcessCompletion ended with exit code 0 : hadoop jar /mnt/var/lib/hadoop/steps/s-3MFES1WR...
+INFO total process run time: 274 seconds
+2020-02-15T04:25:34.184Z INFO Step created jobs: job_1581740365318_0001,job_1581740365318_0002,job_1581740365318_0003,job_1581740365318_0004
+2020-02-15T04:25:34.184Z INFO Step succeeded with exitCode 0 and took 274 seconds
